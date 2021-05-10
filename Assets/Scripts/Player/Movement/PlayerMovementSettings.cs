@@ -7,8 +7,10 @@ namespace Player.PlayerMovement
     [CreateAssetMenu(menuName = "Player/Movement/Movement Settings")]
     public class PlayerMovementSettings : ScriptableObject
     {
-        public float HorizontalSpeed = 5f;
-        public float VerticalSpeed = 5f;
+        public float Speed = 3f;
+        public float SprintSpeed = 7f;
+        public float RotationSpeed = 15f;
+        public float AnimationBlendSpeed = 5f;
         
     }
 }
