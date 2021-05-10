@@ -9,6 +9,7 @@ namespace Player.PlayerInput
     {
         public float Horizontal;
         public float Vertical;
-        public bool isSprinting;
+        public bool SprintTrigger;
+        public bool JumpTrigger;
     }
 }

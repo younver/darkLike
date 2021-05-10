@@ -13,7 +13,8 @@ namespace Player.PlayerInput
         {
             _inputData.Horizontal = Input.GetAxisRaw("Horizontal");
             _inputData.Vertical = Input.GetAxisRaw("Vertical");
-            _inputData.isSprinting = Input.GetKey(KeyCode.LeftShift);
+            _inputData.SprintTrigger = Input.GetKey(KeyCode.LeftShift);
+            _inputData.JumpTrigger = Input.GetButtonDown("Jump");
         }
     }
 }
